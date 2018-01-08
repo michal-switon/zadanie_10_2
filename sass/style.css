@@ -9,9 +9,8 @@ body {
 
 body #carousel {
   margin: 0 auto;
-  text-align: center;
   width: 940px;
-  height: 650px;
+  height: 635px;
   overflow: hidden;
   border: 5px solid grey;
 }
