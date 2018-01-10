@@ -13,6 +13,7 @@ body #carousel {
   height: 635px;
   overflow: hidden;
   border: 5px solid grey;
+  position: relative;
 }
 
 body #carousel ul {
@@ -26,4 +27,30 @@ body #carousel ul li {
   height: 650px;
   list-style: none;
   float: left;
+}
+
+body #carousel #left {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+body #carousel #right {
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
 }
