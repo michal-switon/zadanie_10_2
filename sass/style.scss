@@ -18,6 +18,7 @@ body {
             width: 4700px;
             padding: 0;
             margin: 0;
+            margin-left: -940px;
 
             li {
                 width: 940px;
@@ -28,7 +29,7 @@ body {
 
         }
 
-        #left {
+        #previous {
             float: left;
             position: absolute;
             top: 50%;
@@ -41,7 +42,7 @@ body {
             color: white;
         }
 
-        #right {
+        #next {
             float: right;
             position: absolute;
             top: 50%;
